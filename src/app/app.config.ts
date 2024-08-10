@@ -2,7 +2,7 @@ import { APP_INITIALIZER, ApplicationConfig } from '@angular/core';
 import { provideRouter } from '@angular/router';
 
 import { routes } from './app.routes';
-import { ConfigService } from '../services/config.service';
+import { ConfigService } from '../service/config.service';
 import { HttpClient, HttpClientModule, HttpHandler, provideHttpClient } from '@angular/common/http';
 
 

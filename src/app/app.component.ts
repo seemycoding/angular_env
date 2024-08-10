@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { environment } from '../enviroment/enviroment.common';
-import { ConfigService } from '../services/config.service';
+import { ConfigService } from '../service/config.service';
 @Component({
   selector: 'app-root',
   standalone: true,
